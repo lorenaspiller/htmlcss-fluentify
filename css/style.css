@@ -48,6 +48,15 @@ a {
   padding: 20px;
   border-radius: 5px;
 }
+
+.img-left img,
+.img-middle img,
+.img-right img,
+.left-row-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 /* /generale */
 
 
@@ -160,7 +169,6 @@ h4 {
 .c-left, .c-middle, .c-right {
   float: left;
   width: calc(100% / 3);
-  /* height: 600px; */
   text-align: center;
   padding: 0 35px;
 }
@@ -168,12 +176,6 @@ h4 {
 .img-left, .img-middle, .img-right {
   height: 250px;
   padding-top: 65px;
-}
-
-.img-left img, .img-middle img, .img-right img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
 
 .filetto-row hr {
@@ -189,11 +191,54 @@ h4 {
   margin-top: 20px;
 }
 
-.contenitore.main p{
+.contenitore.main-1 p{
   color: #8C8C8C;
+}
+/* /section row del main */
+
+/* divisore */
+.divisore {
+  margin: 50px 0;
+}
+/* /divisore */
+
+
+/* section row-2 del main */
+.left-row-2, .right-row-2 {
+  float: left;
+  width: calc(50% - 160px);
+  margin: 40px;
+}
+
+.right-row-2 {
+  padding-left: 80px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+.right-row-2 h2 {
+  margin-bottom: 20px;
+}
+
+.right-row-2 p {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: underline;
+  text-transform: none;
+  color: #0000FF;
+  font-size: 14px;
 }
 
 
-/* /section row del main */
+
+
+/* /section row-2 del main */
+
+
+
 
 /* /main */
