@@ -16,24 +16,44 @@ body {
   clear: both;
 }
 
-.bottone {
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-1 ul a, .nav-2 ul a, {
+  padding: 10px;
+}
+
+.cta a {
+  padding: 30px;
+}
+
+.bottone-piccolo {
   border-radius: 10px;
   padding: 10px;
 }
 
-.bottone.verde {
+.verde {
   background-color: #7CBB02;
 }
 
-.bottone.neutro {
+.neutro {
   border: 1px solid #fff;
+}
+
+.bottone-grande {
+  padding: 20px;
+  border-radius: 5px;
 }
 /* /generale */
 
 
 /* contenitore */
 .contenitore {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 /* /contenitore */
@@ -42,10 +62,17 @@ body {
 /* intestazione */
 header {
   background-color: #0C325A;
-  height: 700px;
+  height: 600px;
   padding-top: 20px;
+  color: white;
+  background-image: url("../img/background-header.png");
+  background-size: 55%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
+
+/* sezione top header */
 .logo img {
   height: 40px;
 }
@@ -65,13 +92,6 @@ header {
   margin-right: 10px;
 }
 
-.nav-1 ul a, .nav-2 ul a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 14px;
-  padding: 10px;
-}
 .h-top {
   position: relative;
 }
@@ -81,5 +101,31 @@ header {
   right: 0;
   transform: translateY(-50%);
 }
+/* /sezione top header */
+
+/* sezione hero */
+.contenitore.intestazione {
+  height: 600px;
+  position: relative;
+}
+
+.h-testo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+.h-testo h1 {
+  font-size: 50px;
+}
+
+.h-testo .cta {
+  margin-top: 50px;
+}
+/* /sezione hero */
+
+
 
 /* /intestazione */
