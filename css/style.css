@@ -71,6 +71,11 @@ header {
   background-repeat: no-repeat;
 }
 
+.contenitore.intestazione {
+  height: 600px;
+  position: relative;
+}
+
 
 /* sezione top header */
 .logo img {
@@ -104,11 +109,6 @@ header {
 /* /sezione top header */
 
 /* sezione hero */
-.contenitore.intestazione {
-  height: 600px;
-  position: relative;
-}
-
 .h-testo {
   position: absolute;
   top: 50%;
@@ -125,7 +125,34 @@ header {
   margin-top: 50px;
 }
 /* /sezione hero */
-
-
-
 /* /intestazione */
+
+
+/* main */
+/* top-main */
+.top-main {
+  background-color: #D3D3D3;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 25px;
+  color: #8C8C8C;
+}
+
+.top-main-testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /top-main */
+/* /main */
