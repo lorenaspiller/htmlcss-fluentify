@@ -15,4 +15,45 @@ body {
   display: block;
   clear: both;
 }
+
+.contenitore {
+  width: 80%;
+  margin: auto;
+}
 /* /formattazione generale */
+
+/* intestazione */
+header {
+  background-color: #0C325A;
+  height: 700px;
+  padding-top: 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo {
+  width: 10%;
+}
+
+.nav-1, .nav-2, .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.nav-1 ul li, .nav-2 ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-1 ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+/* /intestazione */
