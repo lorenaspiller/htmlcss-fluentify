@@ -160,21 +160,17 @@ h4 {
 .c-left, .c-middle, .c-right {
   float: left;
   width: calc(100% / 3);
-  height: 600px;
+  /* height: 600px; */
   text-align: center;
-  padding: 0 40px;
+  padding: 0 35px;
 }
 
-.img-left,
-.img-middle,
-.img-right {
+.img-left, .img-middle, .img-right {
   height: 250px;
   padding-top: 65px;
 }
 
-.img-left img,
-.img-middle img,
-.img-right img {
+.img-left img, .img-middle img, .img-right img {
   width: 100%;
   height: 100%;
   object-fit: contain;
