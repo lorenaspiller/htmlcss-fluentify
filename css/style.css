@@ -74,12 +74,11 @@ a {
 /* intestazione */
 header {
   background-color: #0C325A;
-  height: 600px;
   padding-top: 20px;
   color: white;
   background-image: url("../img/background-header.png");
   background-size: 55%;
-  background-position: right bottom;
+  background-position: 108% 100%;
   background-repeat: no-repeat;
 }
 
