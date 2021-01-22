@@ -33,7 +33,7 @@ a {
 }
 
 .cta a {
-  padding: 30px;
+  padding: 25px;
 }
 
 .bottone-p {
@@ -104,12 +104,22 @@ h2 {
 
 
 
-/* contenitore */
+/* contenitori */
 .contenitore {
   width: 70%;
   margin: auto;
 }
-/* /contenitore */
+
+.contenitore.intestazione {
+  /* height: 600px; */
+  height: 80vh;
+  position: relative;
+}
+
+.contenitore.bottom-main {
+  height: 200px;
+}
+/* /contenitori */
 
 
 /* intestazione */
@@ -122,13 +132,6 @@ header {
   background-position: 116% 100%;
   background-repeat: no-repeat;
 }
-
-.contenitore.intestazione {
-  /* height: 600px; */
-  height: 80vh;
-  position: relative;
-}
-
 
 /* sezione top header */
 .logo img {
@@ -151,7 +154,11 @@ header {
 }
 
 .nav-1 ul li, .nav-2 ul li:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.nav-1 {
+  margin-left: 55px;
 }
 
 .h-top {
@@ -263,10 +270,6 @@ header {
 /* /section row-2 del main */
 
 /* sezione bottom del main */
-.contenitore.bottom-main {
-  height: 200px;
-}
-
 /* titolo bottom main */
 .contenitore.bottom-main .titolo-bm {
   float: left;
