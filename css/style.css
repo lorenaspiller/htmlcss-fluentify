@@ -41,6 +41,11 @@ a {
   padding: 10px;
 }
 
+.bottone-p:hover, .bottone-g:hover {
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
 .verde {
   background-color: #7CBB02;
 }
@@ -306,6 +311,14 @@ header {
   padding: 20px;
   border-radius: 5px 5px 0 0;
 }
+
+.help .cta .bottone-p:hover, .help .cta .bottone-p a:hover {
+  background: none;
+  border: 3px solid #7CBB02;
+  color: black;
+  font-weight: 700;
+}
+
 
 .help .cta {
   position: fixed;
