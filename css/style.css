@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* generale */
+/* mix */
 .clearfix::after  {
   content: "";
   display: block;
@@ -67,7 +67,12 @@ a {
   height: 100%;
   object-fit: contain;
 }
-/* /generale */
+
+.nav-1 li a:hover, .nav-2 li:first-child a:hover {
+  color: #7CBB02;
+  text-decoration: underline;
+}
+/* /mix */
 
 /* Typo */
 h1 {
