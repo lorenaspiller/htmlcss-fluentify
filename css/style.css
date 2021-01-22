@@ -295,6 +295,10 @@ header {
 .selezione span {
   margin-left: 90px;
 }
+
+.cta.bm a {
+  padding: 20px 10px;
+}
 /* /action bottom main */
 
 /* bottone help */
@@ -306,7 +310,7 @@ header {
 .help .cta {
   position: fixed;
   bottom: 0;
-  right: 360px;
+  right: 342px;
   z-index: 11;
 }
 /* /bottone help */
