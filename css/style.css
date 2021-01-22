@@ -17,6 +17,7 @@ body {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -34,6 +35,7 @@ a {
 .bottone-piccolo {
   border-radius: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 .verde {
@@ -42,6 +44,7 @@ a {
 
 .neutro {
   border: 1px solid #fff;
+  min-width: 90px;
 }
 
 .bottone-grande {
@@ -93,6 +96,7 @@ header {
 
 .logo {
   width: 10%;
+  margin-bottom: 7px;
 }
 
 .nav-1, .nav-2, .logo {
@@ -139,9 +143,12 @@ header {
 
 /* main */
 /* top-main */
-.top-main {
+.top-main, .bottom-main {
   background-color: #D3D3D3;
   height: 200px;
+}
+
+.top-main {
   text-align: center;
   position: relative;
 }
@@ -232,11 +239,22 @@ h2 {
   color: #0000FF;
   font-size: 14px;
 }
-
-
-
-
 /* /section row-2 del main */
+
+/* sezione bottom del main */
+.contenitore.bottom-main {
+  height: 200px;
+  position: relative;
+}
+.contenitore.bottom-main h2 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+/* /sezione bottom del main */
+
 
 
 
