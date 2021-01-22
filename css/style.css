@@ -285,15 +285,10 @@ header {
 /* /action bottom main */
 
 /* bottone help */
-.help {
-  /* position: fixed; */
-}
-
 .help .cta .bottone-piccolo {
   padding: 20px;
   border-radius: 5px 5px 0 0;
 }
-
 
 .help .cta {
   position: fixed;
@@ -301,14 +296,7 @@ header {
   right: 360px;
   z-index: 11;
 }
-
-
 /* /bottone help */
-
-
-
-
-
 /* /sezione bottom del main */
 
 
