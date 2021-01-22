@@ -16,6 +16,10 @@ body {
   clear: both;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -35,7 +39,6 @@ a {
 .bottone-piccolo {
   border-radius: 10px;
   padding: 10px;
-  text-align: center;
 }
 
 .verde {
@@ -50,6 +53,10 @@ a {
 .bottone-grande {
   padding: 20px;
   border-radius: 5px;
+}
+
+.bottone-piccolo, .bottone-grande {
+  text-align: center;
 }
 
 .img-left img,
@@ -77,7 +84,7 @@ h4 {
   font-size: 25px;
 }
 
-h4, p {
+h4, p, .sono, .selezione {
   color: #8C8C8C;
 }
 
@@ -124,7 +131,6 @@ header {
 }
 
 .nav-1, .nav-2, .logo {
-  display: inline-block;
   vertical-align: middle;
 }
 
@@ -251,13 +257,38 @@ header {
   position: relative;
 }
 
-.contenitore.bottom-main h2 {
-  display: inline-block;
+/* titolo bottom main */
+.contenitore.bottom-main .titolo-bm {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
+/* /titolo bottom main */
+
+/* action bottom main */
+.testo-bm .selezione {
+  border-bottom: 1px solid #8C8C8C;
+}
+
+.contenitore.bottom-main .action-bm {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.cta, .selezione {
+  margin-left: 30px;
+}
+
+.selezione span {
+  margin-left: 90px;
+}
+/* /action bottom main */
+
+
 /* /sezione bottom del main */
 
 
